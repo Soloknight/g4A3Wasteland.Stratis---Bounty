@@ -1,0 +1,8 @@
+Changelog v2.1:
+
+- reduced default door trigger radius to 3 meters
+- if scriptHandle_automatedDoors is terminated, all related triggers and actions will be removed
+- door actions will be readded upon respawn
+- scriptHandle_automatedDoors is broadcast to the clients, because it's needed for creating/removing the actions
+  -> terminating the script client side does not affect the script server side
+- a few minor changes
